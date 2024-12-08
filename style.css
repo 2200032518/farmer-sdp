@@ -1,0 +1,131 @@
+html, body{
+    overflow-x: hidden;
+    background-color: #e3e6e6 !important;
+}
+.page-content{
+    margin-top: 20px;
+    background: #E3E6E6;
+    overflow: hidden;
+    margin-bottom: -20px;
+}
+
+.swiper-button-lock {
+    display: block !important;
+}
+/* .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset);
+    right: auto;
+    padding-right: 20px;
+    color: lightgray;
+} */
+.card{
+    padding: 10px;
+    margin-top: 20px;
+    
+    height: 100%;
+}
+
+.card-heading{
+    padding: 0 20px;
+    margin-bottom: 10px;
+    min-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -20px;
+}
+.card-img{
+    max-height: 100%;
+    width: 100%;
+    /* padding: 5px;*/
+} 
+.single-img{
+    max-height: 120%;
+    padding: 10px;
+}
+.img-text{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.card-bottom{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007185;;
+}
+.card-bottom:hover{
+    margin-left: 10px;
+    color: #c45500;
+}
+.span-text{
+    color: red; font-size: 12px; font-weight: 600; 
+}
+.btn.btn-danger{
+    font-size: 12px !important;
+}
+#footer-row{
+    padding: 0 250px;
+    margin-top: 20px;
+    
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+a:hover{
+    text-decoration: underline !important;
+    color: white !important;
+}
+ul.footer-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+ul.footer-menu li {
+    margin: 0 10px;
+}
+
+ul.footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+@media screen and (max-width:992px){
+    .card{
+        margin-left: -15px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    #footer-row{
+        padding-left: 100px ;
+        text-align: justify !important;
+        padding-right: 0;
+    }
+    ul.footer-menu {
+        list-style: none;
+        padding: 0;
+        flex-basis: 1;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    ul.footer-menu li {
+        margin: 0 10px;
+    }
+    
+    ul.footer-menu li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        
+    }
+}
